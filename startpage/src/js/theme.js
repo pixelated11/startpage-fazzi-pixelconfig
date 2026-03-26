@@ -10,7 +10,7 @@ const colorSets = [
     "--hover-color": "#bb9af7",
     "--accent-color": "#7aa2f7",
     "--accent-color-2": "#f7768e",
-    "--background-color": "#1a1b26",
+    "--background-color": "#1E1E2E",
   },
   {
     "--text-color": "#9fadc6",
