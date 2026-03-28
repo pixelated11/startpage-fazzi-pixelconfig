@@ -19,6 +19,16 @@
     <div id="text">
       <div id="greeting">Welcome $HOME!</div>
       <div id="date"></div>
+      <div id="search">
+  <span id="search-prompt">~/search &gt;&nbsp;</span>
+  <input
+    type="text"
+    id="search-input"
+    placeholder="search the web..."
+    autofocus
+    onkeydown="handleSearch(event)"
+  />
+</div>
       <div id="links">
         <div class="urls">
           <div class="header">~/general </div>
