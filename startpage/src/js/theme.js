@@ -3,7 +3,7 @@ let currentIndex =
   document.currentScript.getAttribute("currentIndex");
 currentIndex = parseInt(currentIndex);
 
-const images = ["cover1.webp", "cover2.webp", "cover3.webp", "cover4.webp"];
+const images = ["cover1.jpg", "cover2.jpg", "cover3.jpg"];
 const colorSets = [
   {
     "--text-color": "#c0caf5",
@@ -25,14 +25,7 @@ const colorSets = [
     "--accent-color": "#7aa2f7",
     "--accent-color-2": "#bb9af7",
     "--background-color": "#1a1b26",
-  },
-  {
-    "--text-color": "#EAEFFD",
-    "--hover-color": "#FDB6A7",
-    "--accent-color": "#556BFF",
-		"--accent-color-2": "#FA87A6",
-    "--background-color": "#16191F",
-  },
+  }
 ];
 
 function preloadImages() {
